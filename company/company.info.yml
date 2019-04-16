@@ -1,0 +1,5 @@
+name: 'company'
+type: module
+description: 'company Module'
+core: 8.x
+package: 'Interpunkt AG'

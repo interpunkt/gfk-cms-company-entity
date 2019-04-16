@@ -1,0 +1,14 @@
+{
+  "name": "drupal/company",
+  "type": "drupal-module",
+  "description": "company Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/company",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/company",
+    "source": "http://cgit.drupalcode.org/company"
+  },
+  "require": { }
+}

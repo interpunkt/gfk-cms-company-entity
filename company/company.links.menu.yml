@@ -1,0 +1,14 @@
+
+# Company menu items definition
+entity.company.collection:
+  title: 'Company list'
+  route_name: entity.company.collection
+  description: 'List Company entities'
+  parent: system.admin_structure
+  weight: 100
+
+company.admin.structure.settings:
+  title: 'Company settings'
+  description: 'Configure Company entities'
+  route_name: company.settings
+  parent: system.admin_structure
