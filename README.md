@@ -1,11 +1,6 @@
-# Install
-
-* Copy paste to your Module Folder
-* enable module #create table company in DB
-* go to `/admin/structure/company/settings/fields`
-* add field title
-* add field license
-* 
+# Install 
+1. Module Download with composer `composer require ip/company` 
+2. Module install with drupal console `./vendor/bin/drupal module:install company`
 
 ## help
 * http://localhost:8001/admin/structure/company/settings/form-display #autocomplete to checkbox
