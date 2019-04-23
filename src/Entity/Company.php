@@ -211,7 +211,18 @@ class Company extends ContentEntityBase implements CompanyInterface {
       ->setLabel(t('Changed'))
       ->setDescription(t('The time that the entity was last edited.'));
 
-    return $fields;
-  }
+      $fields['users'] = BaseFieldDefinition::create('entity_reference')
+          ->setLabel(t('Firma Mitarbeiter'))
+          ->setDescription('Zugehörige Firma Mitarbeiter')
+          ->setSetting('target_type', 'user')
+          ->setCardinality(BaseFieldDefinition::CARDINALITY_UNLIMITED)
+          ->setDisplayOptions('form', array(
+              'type' => 'string_textfield',
+              'weight' => -6,
+          ))
+      ;
+
+        return $fields;
+    }
 
 }
