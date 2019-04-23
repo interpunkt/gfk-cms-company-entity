@@ -199,7 +199,7 @@ class Company extends ContentEntityBase implements CompanyInterface {
       ->setDescription(t('A boolean indicating whether the Company is published.'))
       ->setDefaultValue(TRUE)
       ->setDisplayOptions('form', [
-        'type' => 'boolean_checkbox',
+        'type' => 'options_select',
         'weight' => -3,
       ]);
 
